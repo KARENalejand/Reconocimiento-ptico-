@@ -33,11 +33,27 @@ $ pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesse
 ```sh
 $ prueba1 = cv2.imread('tex.jpg')
 ```
-
 - Para poder emplear el reconocimiento óptico de caracteres usamos pytesseract.image_to_string y entre paréntesis la variable en donde está asignada la imagen.
 ```sh
 $ text = pytesseract.image_to_string(prueba1,lang='spa')
 ```
+
+- Se va a imprimir el texto extraído de la imagen.
+```sh
+$ print('Texto: ',text)
+``` 
+- Vamos a visualizar la imagen, esperar a que una tecla sea presionada para que acabe el proceso y se cierren las ventanas.
+```sh
+$ #vizualizamos la imagen     
+$cv2.imshow('Image',prueba1)
+$#cerramos y borramos todo
+$cv2.waitKey(0)
+$cv2.destroyAllWindows()
+``` 
+
+
+
+
 
 
 
