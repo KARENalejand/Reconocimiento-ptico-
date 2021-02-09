@@ -23,4 +23,41 @@ Teniendo instalado Tesseract – OCR  procedemos a desarrollar el siguiente codi
 $ import cv2
 $import pytesseract
 
+-Para evita problemas donde el codigo no encuentra el programa instalado Vamos a copiar y pegar en el script de nuestro programa
+```sh
+$ pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract'
+
+
+- Leemos la imagen de la cual vamos a reconocer el texto.
+```sh
+$ prueba1 = cv2.imread('tex.jpg')
+
+- Para poder emplear el reconocimiento óptico de caracteres usamos pytesseract.image_to_string y entre paréntesis la variable en donde está asignada la imagen.
+```sh
+$ text = pytesseract.image_to_string(prueba1,lang='spa')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
