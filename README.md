@@ -12,4 +12,5 @@
 >en donde podremos elegir aquellos que deseemos instalar.
 >Una vez finalizada la instalación vamos a dar clic en Terminar.
 
-```sh
+### Codigo
+[![N|Solid](https://github.com/KARENalejand/Reconocimiento-ptico-/blob/main/image3.jpeg)]
