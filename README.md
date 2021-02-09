@@ -14,6 +14,8 @@
 
 ### Codigo
 [![N|Solid](https://github.com/KARENalejand/Reconocimiento-ptico-/blob/main/image3.jpeg)]
+
+
 Teniendo instalado Tesseract – OCR  procedemos a desarrollar el siguiente codigo:
 
 - primero importamos las librerias correspondientes
