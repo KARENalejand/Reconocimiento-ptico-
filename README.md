@@ -50,8 +50,9 @@ $#cerramos y borramos todo
 $cv2.waitKey(0)
 $cv2.destroyAllWindows()
 ``` 
+### Pruebas de funcionamiento
 
-
+[![N|Solid](https://github.com/KARENalejand/Reconocimiento-ptico-/blob/main/funcionamiento.jpeg)]
 
 
 
